@@ -70,11 +70,19 @@ a {
   overflow: hidden;
   background-color: #555;
   position: relative;
-  width: 327px;
+  width: auto;
 }
 
 .topnav #myLinks {
   display: none;
+}
+
+.topnav button {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
 }
 
 .topnav a {
@@ -85,7 +93,7 @@ a {
   display: block;
 }
 
-.topnav a.icon {
+.topnav button.icon {
   background: #555;
   display: block;
   position: absolute;
@@ -112,7 +120,7 @@ section.headline {
   height: 590px;
   background-image: url(./imgs/small.png);
   background-position: 102% 100%;
-  width: 327px;
+  width: auto;
 }
 
 section.headline h1 {
