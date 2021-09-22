@@ -3,7 +3,7 @@
 # Portfolio: setup and mobile version skeleton
 > My Second Project of Converting My Portfolio Website in to Mobile Zise.
 
-![screenshot](./Mobile Zise.png)
+![screenshot](./Mobile.png)
 
 ## Built With
 
@@ -14,7 +14,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://github.com/kingqabil/My-Portfolio)
+[Live Demo Link](https://kingqabil.github.io/My-Portfolio/)
 
 
 ## Getting Started
