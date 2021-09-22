@@ -119,7 +119,7 @@ section.headline {
   padding: 120px 0 10px 24px;
   height: 590px;
   background-image: url(./imgs/small.png);
-  background-position: 102% 100%;
+  background-position: 102% 120%;
   width: auto;
 }
 
@@ -141,7 +141,7 @@ section.headline h2 {
   line-height: 32px;
   letter-spacing: 0;
   text-align: left;
-  color: #fff;
+  color: #fff5e1;
 }
 
 section.headline p {
