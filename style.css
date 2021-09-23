@@ -6,7 +6,6 @@ body {
   overflow-x: hidden;
 }
 
-/* Generic Styles */
 .d-flex {
   display: flex;
   align-items: center;
