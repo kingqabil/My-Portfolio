@@ -63,6 +63,99 @@
       </div>
 
       <!--End Navbar-->
+
+      <!-- popup -->
+      <div class="popup-container d-flex">
+        <div class="popup-window d-flex">
+          <div class="d-flex popup-top-content mx-20">
+            <div class="pop-cont2">
+              <h1 class="popup-title hide-on-large">Multi Post Stories</h1>
+              <h1 class="popup-title show-on-large hide-on-small">
+                Keeping track of hundreds of components website
+              </h1>
+            </div>
+            <span>
+              <i
+                class="fas fa-times fa-lg cursor-pointer"
+                id="closePopupIcon"
+              ></i>
+            </span>
+          </div>
+          <div class="box-container popup-box-content mx-20">
+            <ul class="d-flex font-inter list-none">
+              <li class="box popup-tech-box">html</li>
+              <li class="box popup-tech-box">Bootstrap</li>
+              <li class="box popup-tech-box">Ruby on rails</li>
+            </ul>
+          </div>
+          <div
+            class="d-flex sm-flex-col md-flex-row popup-bottom-content mx-20"
+          >
+            <div class="popup-widow-image-container">
+              <img
+                src="./imgs/SnapshootPortfolio.png"
+                alt="popup window image"
+              />
+            </div>
+            <div class="popup-window-content-container d-flex flex-col mx-20">
+              <p class="font-inter popup-para">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book. It has
+                survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essent
+              </p>
+              <div
+                class="d-flex popup-window-buttons"
+                id="popup-window-buttons"
+              >
+                <div class="button-container button-sm btn-popup">
+                  <a
+                    class="
+                      font-inter
+                      text-white
+                      no-underline
+                      primary-button primary-color
+                      links
+                    "
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://kingqabil.github.io/My-Portfolio/"
+                    >See Live
+                    <img
+                      src="./imgs/Icon.svg"
+                      alt="live demo icon"
+                      class="live-demo-icon"
+                    />
+                  </a>
+                </div>
+                <div class="button-container button-sm btn-popup">
+                  <a
+                    class="
+                      font-inter
+                      text-white
+                      no-underline
+                      primary-button primary-color
+                      links
+                    "
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://github.com/kingqabil/My-Portfolio"
+                    >See Source
+                    <img
+                      src="./imgs/github.svg"
+                      alt="github icon"
+                      class="live-demo-icon"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <!-- Headline -->
 
       <section class="headline-section d-flex secondary-color">
@@ -143,6 +236,118 @@
               </li>
             </ul>
           </div>
+        </div>
+      </section>
+      <section class="works-section" id="portfolio">
+        <div class="d-flex intro">
+          <h1 class="font-crete-round text-xl heading-recent-works">
+            My Recent Works
+          </h1>
+          <div class="ruler hide-on-small show-on-large"></div>
+        </div>
+        <hr />
+        <div class="multi-post-container d-flex">
+          <img src="./imgs/img-placeholder-1.png" alt="feature-post" />
+          <div class="multi-post-content">
+            <h2 class="font-crete-round">Multi-Post Stories</h2>
+            <p class="font-inter">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a standard
+              dummy text.
+            </p>
+            <div class="box-container">
+              <ul class="d-flex font-inter list-none">
+                <li class="box">css</li>
+                <li class="box">html</li>
+                <li class="box">bootstrap</li>
+                <li class="box">Ruby</li>
+              </ul>
+            </div>
+            <div class="button-container button-sm">
+              <button
+                type="button"
+                class="
+                  font-inter
+                  text-white
+                  no-underline
+                  primary-button primary-color
+                  openPopupWindow
+                "
+                rel="noopener noreferrer"
+              >
+                See Project
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="grid-container"></div>
+      </section>
+      <section class="about-section secondary-color" id="about">
+        <div class="about-section-content">
+          <h1 class="font-crete-round primary-text">About me</h1>
+          <p class="text text-lg font-inter">
+            I can help you build a product , feature or website Look through
+            some of my work and experience! If you like what you see and have a
+            project you need coded, don’t hestiate to contact me.
+          </p>
+          <button type="button" class="primary-button primary-color font-inter">
+            Get My Resume
+          </button>
+          <hr />
+        </div>
+        <img
+          src="./imgs/illustration-about-me-mobile.png"
+          alt="illustration-about-me-mobile"
+          class="show-on-small hide-on-large"
+        />
+        <img
+          src="./imgs/illustration-about-me@2x.png"
+          alt="illustration-about-me-desktop"
+          class="show-on-large hide-on-small"
+        />
+        <div class="about-categories-container d-flex">
+          <ul
+            class="
+              category-item
+              d-flex
+              text-white
+              font-inter
+              list-none
+              category-item-1
+            "
+          >
+            <li class="category-title text-lg d-flex">
+              <span class="diamond-shape shape-size primary-color"></span>
+              Lanugages
+            </li>
+            <li class="category-subtitle">Javascript</li>
+            <li class="category-subtitle">Ruby</li>
+            <li class="category-subtitle">Html</li>
+            <li class="category-subtitle">Css</li>
+          </ul>
+          <ul class="category-item d-flex text-white font-inter list-none">
+            <li class="category-title text-lg d-flex">
+              <span class="shape-size primary-color"></span>
+              Frameworks
+            </li>
+            <li class="category-subtitle">Bootstrap</li>
+            <li class="category-subtitle">Ruby on Rails</li>
+            <li class="category-subtitle">RSPec</li>
+            <li class="category-subtitle">CapyBara</li>
+            <li class="category-subtitle">Selenium</li>
+          </ul>
+          <ul class="category-item d-flex text-white font-inter list-none">
+            <li class="category-title text-lg d-flex">
+              <span class="circle-shape shape-size primary-color"></span>
+              Skills
+            </li>
+            <li class="category-subtitle">Codekit</li>
+            <li class="category-subtitle">Github</li>
+            <li class="category-subtitle">Codepen</li>
+            <li class="category-subtitle">Gitlab</li>
+            <li class="category-subtitle">Terminal</li>
+          </ul>
         </div>
       </section>
     </main>
