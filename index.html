@@ -1,75 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta charset="UTF-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>My Portfolio</title>
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500;700&display=swap"
-    rel="stylesheet" />
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
-<link rel="stylesheet" href="style.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <title>My Portfolio</title>
+  </head>
 
-<body>
-    <!-- Top Navigation Menu -->
+  <body>
+    <main>
+      <!-- Top Navigation Menu -->
 
-    <header class="topnav">
-        <a href="#home" class="crete-font">SadiQ</a>
-        <nav>
-        <div id="myLinks">
-            <a href="#Portofolio">Portofolio</a>
-            <a href="#About">About</a>
-            <a href="#Contact">Contact</a>
-        </div>
-        <button type="button" class="icon" id="icon">
-            <i class="fa fa-bars"></i>
-        </button>
+      <header class="d-flex font-inter">
+        <a href="#" class="text-white no-underline logo">SadiQ</a>
+        <!-- desktop menu -->
+        <nav class="d-flex space-x">
+          <ul class="d-flex space-x hide-on-small show-on-large list-none"></ul>
+          <span class="bars hide-on-large">
+            <i class="fas fa-bars cursor-pointer" id="hamburgerButton"></i>
+            <i class="fas fa-times cursor-pointer" id="times"></i>
+          </span>
         </nav>
-    </header>
+      </header>
+      <!-- mobile menu -->
+      <div id="mobile-menu">
+        <nav class="font-inter">
+          <ul class="list-none">
+            <li class="mobileMenuOption cursor-pointer">
+              <a href="#portfolio" class="text-white no-underline">Portfolio</a>
+            </li>
+            <li class="mobileMenuOption cursor-pointer">
+              <a href="#about" class="text-white no-underline">About</a>
+            </li>
+            <li class="mobileMenuOption cursor-pointer">
+              <a href="#contact" class="text-white no-underline">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
 
-    <!--End Navbar-->
-    <!-- Headline -->
+      <!--End Navbar-->
+      <!-- Headline -->
 
-    <section class="headline">
-        <h1 class="crete-font">Hey There. I'm SadiQ</h1>
-        <h2 class="inter-font">I'am a Software Developer</h2>
-        <p class="inter-font">
-            I am Burao based Software Developer, illustrator and web designer
-            creating awesome and effective visual identities for companies of all
-            sizes around the globe. Let's start scrolling and learn more about me.
-        </p>
-        <ul class="social-media">
+      <section class="headline-section d-flex secondary-color">
+        <div
+          class="
+            sider-menu
+            show-on-large
+            hide-on-small
+            d-flex
+            text-white
+            font-size-medium
+          "
+        >
+          <ul class="list-none d-flex">
             <li>
-                <a href="/">
-                    <i class="fab fa-github"></i>
-                </a>
+              <a href="#" aria-label="github icon" class="text-white"
+                ><i class="fab fa-github icons"></i
+              ></a>
             </li>
             <li>
-                <a href="/">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
+              <a href="#" aria-label="linkedIn icon" class="text-white"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
             </li>
             <li>
-                <a href="/">
-                    <i class="fab fa-angellist"></i>
-                </a>
+              <a href="#" aria-label="angelist icon" class="text-white"
+                ><i class="fab fa-angellist"></i
+              ></a>
             </li>
             <li>
-                <a href="/">
-                    <i class="fab fa-twitter"></i>
-                </a>
+              <a href="#" aria-label="twitter icon" class="text-white"
+                ><i class="fab fa-twitter"></i
+              ></a>
             </li>
             <li>
-                <a href="/">
-                    <i class="fab fa-medium-m"></i>
-                </a>
+              <a href="#" aria-label="medium icon" class="text-white"
+                ><i class="fab fa-medium-m"></i
+              ></a>
             </li>
-        </ul>
-    </section>
+          </ul>
+        </div>
+        <div class="headline-text-contents">
+          <h1 class="font-crete-round text-xl primary-text">
+            Hey There. <br />I&apos; SadiQ
+          </h1>
+          <h2>I am a Software Developer</h2>
+          <p class="text-lg">
+            I can help you build a product , feature or website Look through
+            some of my work and experience! If you like what you see and have a
+            project you need coded, don’t hestiate to contact me.
+          </p>
+          <div class="mobile-version-icons text-white font-size-medium">
+            <ul class="list-none show-on-small hide-on-large">
+              <li>
+                <a href="#" aria-label="github icon"
+                  ><i class="fab fa-github icons"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#" aria-label="linkedIn icon"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#" aria-label="angelist icon"
+                  ><i class="fab fa-angellist"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#" aria-label="twitter icon"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#" aria-label="medium icon"
+                  ><i class="fab fa-medium-m"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
 
     <!-- End Headline -->
-
-</body>
+  </body>
 </html>
