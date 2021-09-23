@@ -1,16 +1,16 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Portfolio: setup and mobile version skeleton
-> My Second Project of Converting My Portfolio Website in to Mobile Zise.
+> My Third Project Added Work & About Sections to My Portfolio Website in to Mobile Zise.
 
-![screenshot](./Mobile.png)
+![screenshot](./imgs/app-screenshot.png)
 
 ## Built With
 
 - HTML & CSS
 - GitHub Workflows
--Figma
--Browser Developer Tools.
+- Figma
+- Browser Developer Tools.
 
 ## Live Demo
 
