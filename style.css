@@ -110,7 +110,6 @@ body {
   padding-left: 0;
 }
 
-/* Start of header styles */
 header {
   height: 50px;
   color: white;
@@ -138,7 +137,6 @@ header {
   padding: 0 30px;
 }
 
-/* Start of headline-section styles */
 .headline-section {
   width: 100%;
   height: 100vh;
@@ -196,7 +194,6 @@ header {
   font-family: Poppins, sans-serif;
 }
 
-/* Works section styles */
 .works-section {
   height: 100%;
   padding: 0 20px;
@@ -213,7 +210,6 @@ header {
   color: #1c1a19;
 }
 
-/* work section multi-post container */
 .multi-post-container {
   padding: 60px 0 10px 0;
   flex-direction: column;
@@ -240,7 +236,6 @@ header {
   border: 1px solid #8993a4;
 }
 
-/* work section grid container and childrens */
 .grid-container {
   overflow: hidden;
   padding: 30px 0;
@@ -292,7 +287,6 @@ header {
   font-size: 15px;
 }
 
-/* About Section styles */
 .about-section {
   margin-top: -50px;
   height: auto;
@@ -311,7 +305,6 @@ header {
 
 .about-section-content > h1 {
   font-size: 60px;
-  text-align: left;
   padding-top: 50px;
   margin-bottom: 10px;
 }
@@ -407,7 +400,6 @@ header {
   display: none;
 }
 
-/* Popup window */
 .popup-container {
   background-color: #03030349;
   width: 100%;
@@ -430,7 +422,7 @@ header {
 }
 
 .mx-20 {
-  margin: 0 10px !important;
+  margin: 0 10px;
 }
 
 .popup-top-content {
@@ -439,7 +431,7 @@ header {
 }
 
 .popup-window .box-container {
-  margin-top: -5% !important;
+  margin-top: -5%;
 }
 
 .popup-window .box-container .popup-tech-box {
@@ -525,7 +517,6 @@ header {
   transform: scale(1.1);
 }
 
-/* hide content and show button when hover on the card */
 .grid-item-card > .grid-item-card-content {
   transition: opacity 1s ease-in-out;
 }

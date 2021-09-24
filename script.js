@@ -10,21 +10,18 @@ const aboutSection = document.getElementById('bout');
 const closePopupButton = document.getElementById('closePopupIcon');
 const windowWidth = window.innerWidth;
 
-// hides elements
 const hide = (args) => {
   args.forEach((arg) => {
     arg.style.display = 'none';
   });
 };
 
-// show elements
 const show = (args) => {
   args.forEach((arg) => {
     arg.style.display = 'flex';
   });
 };
 
-// blur elements
 const blurElements = (args, state) => {
   args.forEach((element) => {
     if (state) {
@@ -47,18 +44,14 @@ const openMobileMenu = () => {
   body.style.overflow = 'hidden';
 };
 
-// target all mobile menu options
 document.querySelectorAll('.mobileMenuOption').forEach((item) => {
   item.addEventListener('click', closeMobileMenu);
 });
 
-// open button event listener
 openButton.addEventListener('click', openMobileMenu);
 
-// close button event listener
 closeButton.addEventListener('click', closeMobileMenu);
 
-// Projects Dynamic data
 const workProjects = [
   {
     title: 'Profesional Art Printing Data',
@@ -151,10 +144,8 @@ const workProjects = [
   },
 ];
 
-// variable to hold the injected html projects
 let projectHTML = '';
 
-// iterate through the projects
 workProjects.forEach((project, index) => {
   projectHTML += `
     <div class="grid-items d-flex grid-item-${(index += 1)}">
@@ -169,7 +160,6 @@ workProjects.forEach((project, index) => {
           <p class="font-inter">${project.summary}</p>
           <div class="box-container d-flex">
             <ul class="d-flex font-inter list-none">`;
-  // iterate through the technologies
   project.technologies.forEach((tech) => {
     projectHTML += `<li class="box">${tech}</li>`;
   });
@@ -187,12 +177,10 @@ workProjects.forEach((project, index) => {
     </div>`;
 });
 
-// project container
 projectsContainer.innerHTML = projectHTML;
 
 const popupWindow = () => {
   show([popupContainer]);
-  // body.style.overflow = 'hidden';
 };
 
 const closePopupWindow = () => {
@@ -201,10 +189,8 @@ const closePopupWindow = () => {
   blurElements([headlineSection, portfolioSection, aboutSection, contactSection], false);
 };
 
-// close the popup modal
 closePopupButton.addEventListener('click', closePopupWindow);
 
-// iterate through the items and listen for popupwindow click
 document.querySelectorAll('.openPopupWindow').forEach((item) => {
   item.addEventListener('click', () => {
     popupWindow();

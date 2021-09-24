@@ -1,9 +1,11 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Portfolio: setup and mobile version skeleton
-> My Third Project Added Work & About Sections to My Portfolio Website in to Mobile Zise.
+> My Third Project Added Work & About Sections.
 
-![screenshot](./imgs/app-screenshot.png)
+![screenshot](./imgs/SharedScreenshot.jpg)
+![screenshot](./imgs/SharedScreenshot1.jpg)
+
 
 ## Built With
 
