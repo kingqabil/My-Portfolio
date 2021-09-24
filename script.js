@@ -2,7 +2,12 @@ const mobileMenu = document.getElementById('mobile-menu');
 const body = document.querySelector('body');
 const openButton = document.getElementById('hamburgerButton');
 const closeButton = document.getElementById('times');
+const popupContainer = document.querySelector('.popup-container');
+const projectsContainer = document.querySelector('.grid-container');
 const headlineSection = document.querySelector('.headline-section');
+const portfolioSection = document.getElementById('portfolio');
+const aboutSection = document.getElementById('bout');
+const closePopupButton = document.getElementById('closePopupIcon');
 const windowWidth = window.innerWidth;
 
 const hide = (args) => {
@@ -46,3 +51,149 @@ document.querySelectorAll('.mobileMenuOption').forEach((item) => {
 openButton.addEventListener('click', openMobileMenu);
 
 closeButton.addEventListener('click', closeMobileMenu);
+
+const workProjects = [
+  {
+    title: 'Profesional Art Printing Data',
+    summary:
+      'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard',
+    description:
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
+    image: {
+      imageUrl: './imgs/img-placeholder-2.png',
+      imageAlt: 'Project image',
+    },
+    technologies: ['html', 'bootstrap', 'Ruby'],
+    seeLive: 'https://kingqabil.github.io/My-Portfolio/',
+    sourceUrl: 'https://github.com/kingqabil/My-Portfolio',
+  },
+  {
+    title: 'Profesional Art Printing Data',
+    title_two: 'Data Dashboard Healthcare',
+    summary:
+      'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard',
+    description:
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
+    image: {
+      imageUrl: './imgs/img-placeholder-2.png',
+      imageAlt: 'Project image',
+    },
+    technologies: ['html', 'bootstrap', 'Ruby'],
+    seeLive: 'https://kingqabil.github.io/My-Portfolio/',
+    sourceUrl: 'https://github.com/kingqabil/My-Portfolio',
+  },
+  {
+    title: 'Profesional Art Printing Data',
+    title_two: 'Website Protfolio',
+    summary:
+      'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard',
+    description:
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
+    image: {
+      imageUrl: './imgs/img-placeholder-2.png',
+      imageAlt: 'Project image',
+    },
+    technologies: ['html', 'bootstrap', 'Ruby'],
+    seeLive: 'https://kingqabil.github.io/My-Portfolio/',
+    sourceUrl: 'https://github.com/kingqabil/My-Portfolio',
+  },
+  {
+    title: 'Profesional Art Printing Data',
+    title_two: 'Profesional Art Printing Data',
+    summary:
+      'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard',
+    description:
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
+    image: {
+      imageUrl: './imgs/img-placeholder-2.png',
+      imageAlt: 'Project image',
+    },
+    technologies: ['html', 'bootstrap', 'Ruby'],
+    seeLive: 'https://kingqabil.github.io/My-Portfolio/',
+    sourceUrl: 'https://github.com/kingqabil/My-Portfolio',
+  },
+  {
+    title: 'Profesional Art Printing Data',
+    title_two: 'Data Dashboard Healthcare',
+    summary:
+      'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard',
+    description:
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
+    image: {
+      imageUrl: './imgs/img-placeholder-2.png',
+      imageAlt: 'Project image',
+    },
+    technologies: ['html', 'bootstrap', 'Ruby'],
+    seeLive: 'https://kingqabil.github.io/My-Portfolio/',
+    sourceUrl: 'https://github.com/kingqabil/My-Portfolio',
+  },
+  {
+    title: 'Profesional Art Printing Data',
+    title_two: 'Website Protfolio',
+    summary:
+      'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard',
+    description:
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
+    image: {
+      imageUrl: './imgs/img-placeholder-2.png',
+      imageAlt: 'Project image',
+    },
+    technologies: ['html', 'bootstrap', 'Ruby'],
+    seeLive: 'https://kingqabil.github.io/My-Portfolio/',
+    sourceUrl: 'https://github.com/kingqabil/My-Portfolio',
+  },
+];
+
+let projectHTML = '';
+
+workProjects.forEach((project, index) => {
+  projectHTML += `
+    <div class="grid-items d-flex grid-item-${(index += 1)}">
+      <div class="grid-item-card text-white">`;
+  projectHTML += `<div class="grid-item-card-content d-flex ${
+    windowWidth >= 992 && index === 1 ? 'hide-on-large' : 'show-on-small'
+  }">
+          <h2 class="font-crete-round hide-on-large">${project.title}</h2>
+          <h2 class="font-crete-round show-on-large hide-on-small">
+          ${project.title_two}
+          </h2>
+          <p class="font-inter">${project.summary}</p>
+          <div class="box-container d-flex">
+            <ul class="d-flex font-inter list-none">`;
+  project.technologies.forEach((tech) => {
+    projectHTML += `<li class="box">${tech}</li>`;
+  });
+  projectHTML += `
+          </ul>
+          </div>
+        </div>
+        <div class="button-container openPopupWindow">
+          <a
+          class="font-inter text-white no-underline primary-button primary-color btn"
+          rel="noopener noreferrer"
+          >See Project</a>
+        </div>
+      </div>
+    </div>`;
+});
+
+projectsContainer.innerHTML = projectHTML;
+
+const popupWindow = () => {
+  show([popupContainer]);
+};
+
+const closePopupWindow = () => {
+  hide([popupContainer]);
+  body.style.overflow = 'scroll';
+  blurElements([headlineSection, portfolioSection, aboutSection, contactSection], false);
+};
+
+closePopupButton.addEventListener('click', closePopupWindow);
+
+document.querySelectorAll('.openPopupWindow').forEach((item) => {
+  item.addEventListener('click', () => {
+    popupWindow();
+    blurElements([headlineSection, portfolioSection, aboutSection, contactSection], true);
+  });
+});
