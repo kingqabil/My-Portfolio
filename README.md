@@ -4,7 +4,6 @@
 > My Third Project Added Work & About Sections.
 
 ![screenshot](./imgs/SharedScreenshot.jpg)
-![screenshot](./imgs/SharedScreenshot1.jpg)
 
 
 ## Built With
