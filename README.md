@@ -1,9 +1,9 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Portfolio: setup and mobile version skeleton
-> My Forth Project Added Contact Sections.
+> My Fifth Project Making Desktop Version.
 
-![screenshot](./imgs/SharedScreenshot.jpg)
+![screenshot](./imgs/app-image.png)
 
 
 ## Built With

@@ -35,7 +35,20 @@
       <header class="d-flex font-inter">
         <a href="#" class="text-white no-underline logo">SadiQ</a>
         <nav class="d-flex space-x">
-          <ul class="d-flex space-x hide-on-small show-on-large list-none"></ul>
+          <ul class="d-flex space-x hide-on-small show-on-large list-none">
+            <li>
+              <a href="#portfolio" class="text-white no-underline">Portfolio</a>
+            </li>
+            <li><a href="#about" class="text-white no-underline">About</a></li>
+            <li>
+              <a href="#contact" class="text-white no-underline">Contact</a>
+            </li>
+            <li>
+              <a href="#" aria-label="envelope" class="text-white no-underline"
+                ><i class="far fa-envelope"></i
+              ></a>
+            </li>
+          </ul>
           <span class="bars hide-on-large">
             <i class="fas fa-bars cursor-pointer" id="hamburgerButton"></i>
             <i class="fas fa-times cursor-pointer" id="times"></i>
@@ -188,7 +201,7 @@
         </div>
         <div class="headline-text-contents">
           <h1 class="font-crete-round text-xl primary-text">
-            Hey There. <br />I&apos; SadiQ
+            Hey There. <br />I&apos;m SadiQ
           </h1>
           <h2>I am a Software Developer</h2>
           <p class="text-lg">
@@ -226,6 +239,15 @@
             </ul>
           </div>
         </div>
+        <div class="desktop-headline-bg-section d-flex">
+          <div class="desktop-headline-bg-container">
+            <img
+              class="desktop-headline-bg"
+              src="./imgs/Illustration-header@2x.png"
+              alt="background-illustration"
+            />
+          </div>
+        </div>
       </section>
       <section class="works-section" id="portfolio">
         <div class="d-flex intro">
@@ -236,7 +258,7 @@
         </div>
         <hr />
         <div class="multi-post-container d-flex">
-          <img src="./imgs/img-placeholder-1.png" alt="feature-post" />
+          <img src="./imgs/placeholder.png" alt="feature-post" />
           <div class="multi-post-content">
             <h2 class="font-crete-round">Multi-Post Stories</h2>
             <p class="font-inter">
@@ -345,7 +367,11 @@
             I'm always interested in hearing about new projects, so if you'd
             like to chat please get in touch.
           </h2>
-          <form class="contacts-form d-flex" action="https://formspree.io/f/mqkwjeyr" method="POST">
+          <form
+            class="contacts-form d-flex"
+            action="https://formspree.io/f/mqkwjeyr"
+            method="POST"
+          >
             <label for="name">name:</label>
             <input
               class="input input-text outline-none font-inter"
