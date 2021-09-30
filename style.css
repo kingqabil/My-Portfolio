@@ -147,7 +147,6 @@ header {
   background-position: right;
   background-size: inherit;
   background-position-y: 85%;
-  position: relative;
   z-index: -1;
 }
 
