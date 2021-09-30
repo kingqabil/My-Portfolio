@@ -7,6 +7,7 @@ const projectsContainer = document.querySelector('.grid-container');
 const headlineSection = document.querySelector('.headline-section');
 const portfolioSection = document.getElementById('portfolio');
 const aboutSection = document.getElementById('bout');
+const contactSection = document.getElementById('contact');
 const closePopupButton = document.getElementById('closePopupIcon');
 const windowWidth = window.innerWidth;
 
@@ -196,4 +197,18 @@ document.querySelectorAll('.openPopupWindow').forEach((item) => {
     popupWindow();
     blurElements([headlineSection, portfolioSection, aboutSection, contactSection], true);
   });
+});
+
+const form = document.querySelector('form');
+const error = document.querySelector('.error-message');
+const email = document.getElementById('email');
+
+form.addEventListener('submit', (e) => {
+  if (email.value !== email.value.toLowerCase()) {
+    e.preventDefault();
+    error.style.display = 'block';
+    error.textContent = 'Please use lowercase characters for your email';
+    error.style.color = 'red';
+    error.style.fontFamily = 'Roboto, sans-serif';
+  }
 });

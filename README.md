@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Portfolio: setup and mobile version skeleton
-> My Third Project Added Work & About Sections.
+> My Forth Project Added Contact Sections.
 
 ![screenshot](./imgs/SharedScreenshot.jpg)
 
