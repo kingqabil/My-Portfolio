@@ -121,7 +121,7 @@ header {
 
 .logo {
   transform: rotate(360deg);
-  transition: all 2s ease-in-out;
+  transition: all 4s ease-in-out;
 }
 
 .bars > i {
@@ -178,6 +178,7 @@ header {
   margin-left: 2px;
   padding: 0 10px;
   z-index: 20;
+  transition: all 4s ease-in-out;
 }
 
 .headline-text-contents > h2 {
