@@ -73,7 +73,7 @@ body {
   font-size: 17px;
   border: none;
   border-radius: 0;
-  color: #552505;
+  color: #050505;
   cursor: pointer;
   width: inherit;
   padding: 15px 0;
@@ -84,7 +84,7 @@ body {
 .primary-button:hover {
   border: 1px solid #f55800;
   color: #f55800;
-  background-color: #faf4f4;
+  background-color: #fff5e1;
 }
 
 .button-sm {
@@ -369,6 +369,10 @@ header {
   height: auto;
   width: auto;
   overflow-x: hidden;
+}
+
+label {
+  display: none;
 }
 
 .contact-container {
