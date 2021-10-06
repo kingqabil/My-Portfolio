@@ -73,7 +73,6 @@ body {
   font-size: 17px;
   border: none;
   border-radius: 0;
-  color: #050505;
   cursor: pointer;
   width: inherit;
   padding: 15px 0;
@@ -83,7 +82,7 @@ body {
 
 .primary-button:hover {
   border: 1px solid #f55800;
-  color: #0a0a0a;
+  color: #f55800;
   background-color: #fff5e1;
 }
 
