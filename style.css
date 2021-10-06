@@ -43,8 +43,7 @@ body {
 }
 
 .primary-color {
-  background-color: #eb6826
-  ;
+  background-color: #eb6826;
 }
 
 .secondary-color {
@@ -198,7 +197,7 @@ header {
 .works-section {
   height: 100%;
   padding: 0 20px;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .works-section .intro {
@@ -418,7 +417,7 @@ label {
 }
 
 .bg-contact-color {
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .contact-para {
