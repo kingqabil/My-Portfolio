@@ -371,9 +371,6 @@ header {
   overflow-x: hidden;
 }
 
-label {
-  display: none;
-}
 
 .contact-container {
   flex-direction: column;
