@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Portfolio: setup and mobile version skeleton
-> My Fifth Project Making Desktop Version.
+> My Seventhy  Project Making Accessibility.
 
 ![screenshot](./imgs/app-image.png)
 
