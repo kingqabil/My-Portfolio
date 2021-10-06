@@ -43,7 +43,8 @@ body {
 }
 
 .primary-color {
-  background-color: #ff6b00;
+  background-color: #eb6826
+  ;
 }
 
 .secondary-color {
@@ -73,6 +74,7 @@ body {
   font-size: 17px;
   border: none;
   border-radius: 0;
+  color: #050505;
   cursor: pointer;
   width: inherit;
   padding: 15px 0;
@@ -196,7 +198,7 @@ header {
 .works-section {
   height: 100%;
   padding: 0 20px;
-  background-color: #f7f4f4;
+  background-color: #e5e5e5;
 }
 
 .works-section .intro {
