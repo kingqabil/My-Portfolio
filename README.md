@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Portfolio: setup and mobile version skeleton
-> My Seventhy  Project Making Accessibility.
+> My Eighty  Project Portfolio - mobile menu.
 
 ![screenshot](./imgs/app-image.png)
 
