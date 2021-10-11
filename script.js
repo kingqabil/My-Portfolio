@@ -45,13 +45,7 @@ const openMobileMenu = () => {
   body.style.overflow = 'hidden';
 };
 
-document.querySelectorAll('.mobileMenuOption').forEach((item) => {
-  item.addEventListener('click', closeMobileMenu);
-});
 
-openButton.addEventListener('click', openMobileMenu);
-
-closeButton.addEventListener('click', closeMobileMenu);
 
 const workProjects = [
   {
@@ -180,24 +174,6 @@ workProjects.forEach((project, index) => {
 
 projectsContainer.innerHTML = projectHTML;
 
-const popupWindow = () => {
-  show([popupContainer]);
-};
-
-const closePopupWindow = () => {
-  hide([popupContainer]);
-  body.style.overflow = 'scroll';
-  blurElements([headlineSection, portfolioSection, aboutSection, contactSection], false);
-};
-
-closePopupButton.addEventListener('click', closePopupWindow);
-
-document.querySelectorAll('.openPopupWindow').forEach((item) => {
-  item.addEventListener('click', () => {
-    popupWindow();
-    blurElements([headlineSection, portfolioSection, aboutSection, contactSection], true);
-  });
-});
 
 const form = document.querySelector('form');
 const error = document.querySelector('.error-message');
