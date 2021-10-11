@@ -49,9 +49,7 @@ document.querySelectorAll('.mobileMenuOption').forEach((item) => {
   item.addEventListener('click', closeMobileMenu);
 });
 
-openButton.addEventListener('click', openMobileMenu);
 
-closeButton.addEventListener('click', closeMobileMenu);
 
 const workProjects = [
   {
