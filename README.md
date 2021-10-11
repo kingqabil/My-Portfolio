@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Portfolio: setup and mobile version skeleton
-> My Seventhy  Project Making Accessibility.
+> My Eighty  Project Portfolio - mobile menu.
 
 ![screenshot](./imgs/app-image.png)
 
@@ -16,6 +16,7 @@
 ## Live Demo
 
 - [Live Demo Link](https://kingqabil.github.io/My-Portfolio/)
+- [Live Demo 2](https://deploy-preview-10--sharp-joliot-d10f38.netlify.app/?utm_source=github&utm_campaign=bot_dp)
 
 
 ## Getting Started

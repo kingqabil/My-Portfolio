@@ -45,7 +45,13 @@ const openMobileMenu = () => {
   body.style.overflow = 'hidden';
 };
 
+document.querySelectorAll('.mobileMenuOption').forEach((item) => {
+  item.addEventListener('click', closeMobileMenu);
+});
 
+openButton.addEventListener('click', openMobileMenu);
+
+closeButton.addEventListener('click', closeMobileMenu);
 
 const workProjects = [
   {
@@ -173,7 +179,6 @@ workProjects.forEach((project, index) => {
 });
 
 projectsContainer.innerHTML = projectHTML;
-
 
 const form = document.querySelector('form');
 const error = document.querySelector('.error-message');
