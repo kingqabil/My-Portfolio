@@ -179,4 +179,3 @@ workProjects.forEach((project, index) => {
 });
 
 projectsContainer.innerHTML = projectHTML;
-
