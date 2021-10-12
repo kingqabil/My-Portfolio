@@ -3,7 +3,7 @@
 # Portfolio: setup and mobile version skeleton
 > My Eighty  Project Portfolio - mobile menu.
 
-![screenshot](./imgs/app-image.png)
+![screenshot](./imgs/popup.jpg)
 
 
 ## Built With
