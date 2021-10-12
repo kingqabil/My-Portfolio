@@ -180,24 +180,3 @@ workProjects.forEach((project, index) => {
 
 projectsContainer.innerHTML = projectHTML;
 
-const popupWindow = () => {
-  show([popupContainer]);
-  // body.style.overflow = 'hidden';
-};
-
-const closePopupWindow = () => {
-  hide([popupContainer]);
-  body.style.overflow = 'scroll';
-  blurElements([headlineSection, portfolioSection, aboutSection, contactSection], false);
-};
-
-// close the popup modal
-closePopupButton.addEventListener('click', closePopupWindow);
-
-// iterate through the items and listen for popupwindow click
-document.querySelectorAll('.openPopupWindow').forEach((item) => {
-  item.addEventListener('click', () => {
-    popupWindow();
-    blurElements([headlineSection, portfolioSection, aboutSection, contactSection], true);
-  });
-});
