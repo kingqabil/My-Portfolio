@@ -180,16 +180,24 @@ workProjects.forEach((project, index) => {
 
 projectsContainer.innerHTML = projectHTML;
 
-const form = document.querySelector('form');
-const error = document.querySelector('.error-message');
-const email = document.getElementById('email');
+const popupWindow = () => {
+  show([popupContainer]);
+  // body.style.overflow = 'hidden';
+};
 
-form.addEventListener('submit', (e) => {
-  if (email.value !== email.value.toLowerCase()) {
-    e.preventDefault();
-    error.style.display = 'block';
-    error.textContent = 'Please use lowercase characters for your email';
-    error.style.color = 'red';
-    error.style.fontFamily = 'Roboto, sans-serif';
-  }
+const closePopupWindow = () => {
+  hide([popupContainer]);
+  body.style.overflow = 'scroll';
+  blurElements([headlineSection, portfolioSection, aboutSection, contactSection], false);
+};
+
+// close the popup modal
+closePopupButton.addEventListener('click', closePopupWindow);
+
+// iterate through the items and listen for popupwindow click
+document.querySelectorAll('.openPopupWindow').forEach((item) => {
+  item.addEventListener('click', () => {
+    popupWindow();
+    blurElements([headlineSection, portfolioSection, aboutSection, contactSection], true);
+  });
 });
