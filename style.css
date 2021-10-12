@@ -73,6 +73,7 @@ body {
   font-size: 17px;
   border: none;
   border-radius: 0;
+
   /* color: #050505; */
   cursor: pointer;
   width: inherit;
@@ -107,7 +108,7 @@ body {
 }
 
 .box-container > ul {
-  /* padding-left: 0; */
+  padding-left: 0;
 }
 
 header {
@@ -550,7 +551,7 @@ footer .footer-icons > li {
 .popup-widow-image-container {
   height: auto;
   width: auto;
-  margin: -4% ;
+  margin: -4%;
 }
 
 .popup-widow-image-container > img {
@@ -571,7 +572,6 @@ footer .footer-icons > li {
   line-height: 20px;
   text-align: justify;
   margin: 4%;
-
 }
 
 .popup-window-buttons {
@@ -582,8 +582,6 @@ footer .footer-icons > li {
 .btn-popup {
   margin: 10% 5% 0% 5%;
 }
-
-
 
 .grid-item-1 {
   background-image: url("./imgs/img-placeholder-3.png");
