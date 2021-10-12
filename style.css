@@ -73,7 +73,7 @@ body {
   font-size: 17px;
   border: none;
   border-radius: 0;
-  color: #050505;
+  /* color: #050505; */
   cursor: pointer;
   width: inherit;
   padding: 15px 0;
@@ -107,7 +107,7 @@ body {
 }
 
 .box-container > ul {
-  padding-left: 0;
+  /* padding-left: 0; */
 }
 
 header {
@@ -513,8 +513,8 @@ footer .footer-icons > li {
 .popup-window {
   background-color: #fff;
   display: block;
-  width: 90%;
-  height: 96%;
+  width: 100%;
+  height: 100%;
   flex-direction: column;
   margin: 20px 2px;
 }
@@ -529,7 +529,7 @@ footer .footer-icons > li {
 }
 
 .popup-window .box-container {
-  margin-top: -5%;
+  margin-top: 0%;
 }
 
 .popup-window .box-container .popup-tech-box {
@@ -538,8 +538,9 @@ footer .footer-icons > li {
 
 .popup-window .popup-top-content .popup-title {
   font-family: "Roboto", sans-serif;
-  font-size: 19px;
-  line-height: 44px;
+  font-size: 35px;
+  line-height: 34px;
+  color: #172b4d;
 }
 
 .popup-bottom-content {
@@ -547,27 +548,30 @@ footer .footer-icons > li {
 }
 
 .popup-widow-image-container {
-  height: 150px;
-  width: 100%;
-  margin: -5% 40px 1% 40px;
+  height: auto;
+  width: auto;
+  margin: -4% ;
 }
 
 .popup-widow-image-container > img {
-  height: inherit;
-  width: inherit;
-  object-fit: cover;
+  position: static;
+  width: 370px;
+  height: 300px;
+  left: 16px;
+  top: 170px;
 }
 
 .popup-window-content-container {
   width: 100%;
   justify-content: space-between;
-  height: 50vh;
 }
 
 .popup-para {
   font-size: 17px;
-  line-height: 24px;
+  line-height: 20px;
   text-align: justify;
+  margin: 4%;
+
 }
 
 .popup-window-buttons {
@@ -576,13 +580,10 @@ footer .footer-icons > li {
 }
 
 .btn-popup {
-  margin: 0% 5% 0% 5%;
+  margin: 10% 5% 0% 5%;
 }
 
-.live-demo-icon {
-  height: 14px;
-  margin-left: 5px;
-}
+
 
 .grid-item-1 {
   background-image: url("./imgs/img-placeholder-3.png");
@@ -816,7 +817,6 @@ footer .footer-icons > li {
     transform: scale(1.1);
   }
 
-  /* hide content and show button when hover on the card */
   .grid-item-card > .grid-item-card-content {
     transition: opacity 1s ease-in-out;
   }
@@ -836,7 +836,6 @@ footer .footer-icons > li {
     width: inherit;
   }
 
-  /* About Section styles */
   .about-section {
     padding: 0 5%;
   }
@@ -883,7 +882,6 @@ footer .footer-icons > li {
     text-align: left !important;
   }
 
-  /* Contact Form Section */
   .contact-section {
     padding: 5% 10%;
     height: 25%;
@@ -932,7 +930,6 @@ footer .footer-icons > li {
     height: 50px;
   }
 
-  /* Popup window */
   .popup-container {
     width: 100%;
     height: 100%;
