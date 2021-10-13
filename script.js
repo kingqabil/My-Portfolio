@@ -180,6 +180,22 @@ workProjects.forEach((project, index) => {
 
 projectsContainer.innerHTML = projectHTML;
 
+const popupWindow = () => {
+  show([popupContainer]);
+};
 
+const closePopupWindow = () => {
+  hide([popupContainer]);
+  body.style.overflow = 'scroll';
+  blurElements([headlineSection, portfolioSection, aboutSection, contactSection], false);
+};
 
+closePopupButton.addEventListener('click', closePopupWindow);
+
+document.querySelectorAll('.openPopupWindow').forEach((item) => {
+  item.addEventListener('click', () => {
+    popupWindow();
+    blurElements([headlineSection, portfolioSection, aboutSection, contactSection], true);
+  });
+});
 
