@@ -514,14 +514,14 @@ footer .footer-icons > li {
 .popup-window {
   background-color: #fff;
   display: block;
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 96%;
   flex-direction: column;
   margin: 20px 2px;
 }
 
 .mx-20 {
-  margin: 0 10px;
+  margin: 0 10px !important;
 }
 
 .popup-top-content {
@@ -530,7 +530,7 @@ footer .footer-icons > li {
 }
 
 .popup-window .box-container {
-  margin-top: 0%;
+  margin-top: -5% !important;
 }
 
 .popup-window .box-container .popup-tech-box {
@@ -539,9 +539,9 @@ footer .footer-icons > li {
 
 .popup-window .popup-top-content .popup-title {
   font-family: "Roboto", sans-serif;
-  font-size: 35px;
-  line-height: 34px;
-  color: #172b4d;
+  font-size: 30px;
+  line-height: 44px;
+  color: rgb(13, 3, 71);
 }
 
 .popup-bottom-content {
@@ -549,17 +549,15 @@ footer .footer-icons > li {
 }
 
 .popup-widow-image-container {
-  height: auto;
-  width: auto;
-  margin: -4%;
+  height: 220px;
+  width: 99%;
+  margin: -5% 40px 1% 40px;
 }
 
 .popup-widow-image-container > img {
-  position: static;
-  width: 370px;
-  height: 300px;
-  left: 16px;
-  top: 170px;
+  height: inherit;
+  width: inherit;
+  object-fit: cover;
 }
 
 .popup-window-content-container {
@@ -569,9 +567,8 @@ footer .footer-icons > li {
 
 .popup-para {
   font-size: 17px;
-  line-height: 20px;
+  line-height: 24px;
   text-align: justify;
-  margin: 4%;
 }
 
 .popup-window-buttons {
@@ -580,7 +577,12 @@ footer .footer-icons > li {
 }
 
 .btn-popup {
-  margin: 10% 5% 0% 5%;
+  margin: 0% 5% 0% 5%;
+}
+
+.live-demo-icon {
+  height: 14px;
+  margin-left: 5px;
 }
 
 .grid-item-1 {

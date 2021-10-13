@@ -191,10 +191,3 @@ const closePopupWindow = () => {
 };
 
 closePopupButton.addEventListener('click', closePopupWindow);
-
-document.querySelectorAll('.openPopupWindow').forEach((item) => {
-  item.addEventListener('click', () => {
-    popupWindow();
-    blurElements([headlineSection, portfolioSection, aboutSection, contactSection], true);
-  });
-});

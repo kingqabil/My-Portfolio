@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio: setup and mobile version skeleton
+# Portfolio: details popup window
 > My Ninety  Project Portfolio: details popup window.
 
 ![screenshot](./imgs/popup.jpg)
