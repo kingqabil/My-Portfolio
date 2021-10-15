@@ -222,3 +222,23 @@ form.addEventListener('submit', (e) => {
   }
 
 });
+
+const fullName = document.getElementById('username');
+const message = document.getElementById('message');
+
+form.addEventListener('input', () => {
+  const formObject = {
+    fullNameInput: fullName.value,
+    emailInput: email.value,
+    messageInput: message.value,
+  };
+
+  localStorage.setItem('formData', JSON.stringify(formObject));
+});
+
+const fetchdata = JSON.parse(localStorage.getItem('formData'));
+if (fetchdata) {
+  fullName.value = fetchdata.fullNameInput;
+  message.value = fetchdata.messageInput;
+  email.value = fetchdata.emailInput;
+}
