@@ -199,3 +199,26 @@ document.querySelectorAll('.openPopupWindow').forEach((item) => {
   });
 });
 
+const form = document.querySelector('form');
+const error = document.querySelector('.error-message');
+const email = document.getElementById('email');
+
+const mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+form.addEventListener('submit', (e) => {
+  if (email.value !== email.value.toLowerCase()) {
+    e.preventDefault();
+    error.style.display = 'block';
+    error.textContent = 'Please use lowercase characters for your email';
+    error.style.color = 'red';
+    error.style.fontFamily = 'Roboto, sans-serif';
+  }
+
+  if (!mailformat.test(form.email.value)) {
+    e.preventDefault();
+    error.style.display = 'block';
+    error.textContent = 'Please use Valid email';
+    error.style.color = 'red';
+    error.style.fontFamily = 'Roboto, sans-serif';
+  }
+
+});
