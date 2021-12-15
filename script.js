@@ -56,8 +56,9 @@ closeButton.addEventListener('click', closeMobileMenu);
 const workProjects = [
   {
     title: 'Profesional Art Printing Data',
+    title_two: 'To Do List App',
     summary:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard',
+      'To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete.',
     description:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
     image: {
@@ -70,9 +71,9 @@ const workProjects = [
   },
   {
     title: 'Profesional Art Printing Data',
-    title_two: 'Data Dashboard Healthcare',
+    title_two: 'To Do List App',
     summary:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard',
+      'To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete.',
     description:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
     image: {
@@ -100,9 +101,9 @@ const workProjects = [
   },
   {
     title: 'Profesional Art Printing Data',
-    title_two: 'Profesional Art Printing Data',
+    title_two: 'To Do List App',
     summary:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard',
+      'To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete.',
     description:
       'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
     image: {
