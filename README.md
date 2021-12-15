@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Portfolio: validate contact form
-> My Tenthy  Project Portfolio: validate contact form.
+> My Portfolio.
 
 ![screenshot](./imgs/app-image.png)
 
