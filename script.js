@@ -151,7 +151,7 @@ let projectHTML = '';
 workProjects.forEach((project, index) => {
   projectHTML += `
     <div class="grid-items d-flex grid-item-${(index += 1)}">
-      <div class="grid-item-card text-white">`;
+      <div class="grid-item-card text-white1">`;
   projectHTML += `<div class="grid-item-card-content d-flex ${
     windowWidth >= 992 && index === 1 ? 'hide-on-large' : 'show-on-small'
   }">
