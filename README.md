@@ -3,7 +3,7 @@
 # Portfolio: validate contact form
 > My Tenthy  Project Portfolio: validate contact form.
 
-![screenshot](./imgs/app-image.jpg)
+![screenshot](./imgs/app-image.png)
 
 
 ## Built With
