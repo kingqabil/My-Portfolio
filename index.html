@@ -28,15 +28,21 @@
       rel="stylesheet"
     />
 
-   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-51LSK3XWZD"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-51LSK3XWZD"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  gtag('config', 'G-51LSK3XWZD');
-</script> <title>My Portfolio</title>
+      gtag("config", "G-51LSK3XWZD");
+    </script>
+    <title>My Portfolio</title>
   </head>
 
   <body>
@@ -106,10 +112,7 @@
             class="d-flex sm-flex-col md-flex-row popup-bottom-content mx-20"
           >
             <div class="popup-widow-image-container">
-              <img
-                src="./imgs/SnapshootPortfolio.png"
-                alt="popup window image"
-              />
+              <img src="./imgs/.png" alt="popup window image" />
             </div>
             <div class="popup-window-content-container d-flex flex-col mx-20">
               <p class="font-inter popup-para">
@@ -267,7 +270,7 @@
         </div>
         <hr />
         <div class="multi-post-container d-flex">
-          <img src="./imgs/placeholder.png" alt="feature-post" />
+          <img src="./imgs/capstone.png" alt="feature-post" />
           <div class="multi-post-content">
             <h2 class="font-crete-round">Multi-Post Stories</h2>
             <p class="font-inter">
@@ -379,7 +382,8 @@
           <form
             class="contacts-form d-flex"
             action="https://formspree.io/f/mqkwjeyr"
-            method="POST" id="form"
+            method="POST"
+            id="form"
           >
             <label for="username">Username:</label>
             <input
